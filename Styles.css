@@ -8,14 +8,18 @@
 
 body {
     font-family:Plus Jakarta Sans, sans-serif;
-    background-color: #f0f0f0;
+   
+
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 24px;
+    width: 1512px;
+    height: 100px;
+    background-color: #FFFFFF;
 }
     
 .logo{
@@ -36,7 +40,13 @@ body {
     padding-right: 24px;
     padding-top: 24px;
     padding-bottom: 24px;
+    text-decoration: none;
 }
+
+.nav-links a{
+    text-decoration: none;
+}
+
 
 .cta-button{
     display: inline-block;
@@ -52,3 +62,149 @@ body {
     gap: 8px;
     background-color: #2964FC;
 }
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFC;
+    width: 1512px;
+    height: 800px;
+    top: 100px;
+}
+
+.hero-text h1{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    margin-left: 124px;
+    margin-top: 136.5px;
+    color: #0E1E5E;
+}
+
+.hero-text p{
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 30px;
+    margin-left: 124px;
+    color: #0E1E5E;
+}
+
+.hero-image{
+    width: 570.5px;
+    height: 650px;
+    margin-top: 75px;
+    margin-right: 124px;
+    margin-left: 123px;
+    margin-bottom: 75px;
+}
+
+.download-buttons {
+    display: flex;
+    gap: 15px; 
+    margin-top: 70px;
+    margin-left: 124px;
+    margin-bottom: 211.5px;
+    margin-right: 123px;
+  }
+  
+  .download-btn {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: #2964FC; 
+
+  }
+  
+.btn-icon {
+    width: 24px; 
+    height: 24px;
+  }
+
+.business-section{
+    width: 1,264px;
+    height: 427px;
+    top: 975px;
+    left: 124px;
+    gap: 50px;
+    margin-top: 75px;
+    margin-left: 124px;
+    margin-right: 124px;
+    margin-bottom: 123px;
+    background-color: #FFFFFF;
+}
+
+/*  */
+.business-section-text{
+    display: flex;
+    align-items: flex-start;
+}
+    
+
+.business-section-text h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    color: #0E1E5E;
+  }
+
+  .hero-business-section{
+    width: 623px;
+    height: 327px;
+    border-radius: 10px;
+    border: #C5D7FB 1px solid;
+    padding: 53px;
+    gap: 10px;
+    margin-top: 50px;
+    color: #FFFFFF;
+  }
+
+  .hero-business-image{
+    width: 102.29px;
+    height: 100px;
+    margin-bottom: 25px;
+  }
+
+  .hero-business-section h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #0E1E5E;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 53px;
+  }
+
+  .hero-business-section p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #0E1E5E;
+    margin-top: 25px;
+     margin-bottom: 53px;
+  }
+
+  .hero-business-section2{
+    display: flex;
+    align-items: flex-end;
+    width: 623px;
+    height: 327px;
+    border-radius: 10px;
+    border: #C5D7FB 1px solid;
+    padding: 53px;
+    gap: 10px;
+    margin-top: 50px;
+    color: #FFFFFF;
+ }
+   
+    
+    
+
